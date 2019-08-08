@@ -18,4 +18,10 @@ class MainActivity : AppCompatActivity() {
         }
         startActivity(intent)
     }
+
+    fun clickBasicPhotoViewActivityBtn(view: View) {
+        val intent = Intent(this, BasicPhotoViewActivity::class.java).apply {
+        }
+        startActivity(intent)
+    }
 }

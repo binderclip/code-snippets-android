@@ -9,6 +9,10 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+        <activity android:name=".BasicPhotoViewActivity">
+        </activity>
+        <activity android:name=".ZoomImageAcitivity">
+        </activity>
         <activity
                 android:name=".BasicImageActivity"
                 android:label="@string/title_activity_basic_image"
