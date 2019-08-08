@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">view_demos</string>
+    <string name="title_activity_basic_image">BasicImageActivity</string>
 </resources>
