@@ -9,14 +9,14 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".PhotoViewCanSelectImageActivity">
+        <activity android:name=".photo_view_sp.PhotoViewCanSelectImageActivity">
         </activity>
-        <activity android:name=".BasicPhotoViewActivity">
+        <activity android:name=".photo_view_sp.BasicPhotoViewActivity">
         </activity>
         <activity android:name=".ZoomImageAcitivity">
         </activity>
         <activity
-                android:name=".BasicImageActivity"
+                android:name=".image_view_sp.BasicImageActivity"
                 android:label="@string/title_activity_basic_image"
                 android:parentActivityName=".MainActivity"
                 android:theme="@style/AppTheme.NoActionBar">

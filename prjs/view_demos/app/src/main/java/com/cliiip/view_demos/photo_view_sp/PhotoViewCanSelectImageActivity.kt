@@ -1,4 +1,4 @@
-package com.cliiip.view_demos
+package com.cliiip.view_demos.photo_view_sp
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.View
 import com.github.chrisbanes.photoview.PhotoView
 import android.app.Activity
+import com.cliiip.view_demos.R
 import java.io.IOException
 
 

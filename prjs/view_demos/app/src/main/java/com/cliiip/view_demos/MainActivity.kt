@@ -4,6 +4,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.content.Intent
+import com.cliiip.view_demos.image_view_sp.BasicImageActivity
+import com.cliiip.view_demos.photo_view_sp.BasicPhotoViewActivity
+import com.cliiip.view_demos.photo_view_sp.PhotoViewCanSelectImageActivity
 
 
 class MainActivity : AppCompatActivity() {

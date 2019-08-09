@@ -20,6 +20,20 @@
             android:id="@+id/photo_view_need_select"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
+    <Button
+            android:text="show_compress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_show_compress" android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toTopOf="@+id/btn_to_select_image" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="16dp" android:layout_marginStart="16dp" android:onClick="clickShowCompressBtn"/>
+    <Button
+            android:text="show_origin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_show_origin" android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toTopOf="@+id/btn_show_compress" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="16dp" android:layout_marginStart="16dp" android:onClick="clickShowOriginBtn"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

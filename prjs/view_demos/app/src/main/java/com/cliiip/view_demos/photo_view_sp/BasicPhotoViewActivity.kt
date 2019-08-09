@@ -1,7 +1,8 @@
-package com.cliiip.view_demos
+package com.cliiip.view_demos.photo_view_sp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.cliiip.view_demos.R
 import com.github.chrisbanes.photoview.PhotoView
 
 
