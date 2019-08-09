@@ -12,7 +12,7 @@ class BasicPhotoViewActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_basic_photo_view)
 
-        val photoView = findViewById<PhotoView>(R.id.photo_view)
+        val photoView = findViewById<PhotoView>(R.id.basic_photo_view)
         photoView.setImageResource(R.drawable.emoji)
     }
 }

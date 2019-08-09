@@ -24,4 +24,10 @@ class MainActivity : AppCompatActivity() {
         }
         startActivity(intent)
     }
+
+    fun clickPhotoViewCanSelectImageActivityBtn(view: View) {
+        val intent = Intent(this, PhotoViewCanSelectImageActivity::class.java).apply {
+        }
+        startActivity(intent)
+    }
 }
